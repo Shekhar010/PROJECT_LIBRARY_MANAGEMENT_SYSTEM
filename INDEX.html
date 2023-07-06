@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Library-Login page</title>
+    <!--link to css -->
+    <link rel="stylesheet" href="INDEX.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <!--navigation bar-->
+        <nav class="navbar">
+            <ul>
+                <li></i>Home</li>
+                <li><a href="register.html">register now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!--main heading of login page-->
+    <div class="heading">
+        <h1></h1>
+    </div>
+
+
+    <!-- login details-->
+    <div class="main">
+        <!--image of user login -->
+        <img src="LIBRARY_USER_ICON_1.png" class="USER">
+        <!-- other login componets-->
+        <form>
+            <!-- main heading -->
+            <h1>LOGIN</h1>
+
+            <!-- username -->
+            <div class="username">
+                <label for="username">
+                    Username :
+                </label>
+                <input type="text"></input>
+            </div>
+
+            <!-- password -->
+            <div class="password">
+                <label for="pass">
+                    Password :
+                </label>
+                <input type="password" id="password1"></input>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox1">
+                <p>Show password</p></input>
+            </div>
+            <!-- <script>
+                var password_1 = document.getElementById("password1");
+                var checkboxClicked = document.getElementById("checkbox1");
+
+                checkboxClicked.addEventListener("change", function checkedOrNot() {
+                    if (checkboxClicked.checked) {
+                        password_1.type = "text";
+                    } else {
+                        password_1.type = "password";
+                    }
+                });
+            </script> -->
+
+            <!-- show password functionality -->
+            <script src="INDEX.js"></script>
+            <!-- button -->
+            <div class="button">
+                <button>
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!--footer of login page-->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
