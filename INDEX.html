@@ -6,7 +6,8 @@
     <title>Library-Login page</title>
     <!--link to css -->
     <link rel="stylesheet" href="INDEX.css">
-
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 
@@ -16,71 +17,55 @@
         <!--navigation bar-->
         <nav class="navbar">
             <ul>
-                <li></i>Home</li>
-                <li><a href="register.html">register now</a></li>
+                <li>
+                    <p><i>E-Library</i></p>
+                </li>
+                <li></i><a href="HOME.html">HOME</a></li>
+                <li><a href="register.html">REGISTER NOW</a></li>
             </ul>
         </nav>
     </header>
 
-
-
-    <!--main heading of login page-->
-    <div class="heading">
-        <h1></h1>
-    </div>
-
-
     <!-- login details-->
     <div class="main">
+
         <!--image of user login -->
         <img src="LIBRARY_USER_ICON_1.png" class="USER">
+        <div class="heading">
+            <h1>E-Library</h1>
+        </div>
+        <hr>
+
         <!-- other login componets-->
-        <form>
-            <!-- main heading -->
-            <h1>LOGIN</h1>
+        <center>
+            <form class="login_1">
 
-            <!-- username -->
-            <div class="username">
-                <label for="username">
-                    Username :
-                </label>
+                <br><br>
+                <!-- username -->
+                <label for="username">Username :</label>
                 <input type="text"></input>
-            </div>
+                <br><br>
 
-            <!-- password -->
-            <div class="password">
-                <label for="pass">
-                    Password :
-                </label>
+                <!-- password -->
+                <label for="pass">Password :</label>
                 <input type="password" id="password1"></input>
-            </div>
+                <br>
 
-            <div class="checkbox">
-                <input type="checkbox" id="checkbox1">
-                <p>Show password</p></input>
-            </div>
-            <!-- <script>
-                var password_1 = document.getElementById("password1");
-                var checkboxClicked = document.getElementById("checkbox1");
+                <!-- show password -->
+                <div class="checkboxx">
+                    <input type="checkbox" id="eye">
+                    <label for="showpp">show password</label>
+                </div>
+                
 
-                checkboxClicked.addEventListener("change", function checkedOrNot() {
-                    if (checkboxClicked.checked) {
-                        password_1.type = "text";
-                    } else {
-                        password_1.type = "password";
-                    }
-                });
-            </script> -->
+                <!-- show password functionality -->
+                <script src="INDEX.js"></script>
+                <br><br>
+                <!-- button -->
+                <button>Login</button>
 
-            <!-- show password functionality -->
-            <script src="INDEX.js"></script>
-            <!-- button -->
-            <div class="button">
-                <button>
-                    Submit
-                </button>
-            </div>
-        </form>
+            </form>
+        </center>
     </div>
 
     <!--footer of login page-->

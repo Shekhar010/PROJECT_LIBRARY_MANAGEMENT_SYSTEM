@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Oswald:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100;800&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
 }
 
 body {
@@ -25,27 +27,33 @@ nav {
 
 nav ul {
   float: right;
-  margin-right: 30px;
+  font-family: 'Ysabeau Office bold', sans-serif;
+  font-size: 25px;
+}
+
+nav ul li p {
+  margin-left: 20PX;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 30px;
+  font-family: 'Ysabeau Office bold', sans-serif;
 }
 
 nav ul li {
   display: inline-block;
   line-height: 60px;
   margin-right: 20px;
-  text-transform: uppercase;
-  margin: 0 5px;
+  vertical-align: middle;
 }
 
-.heading {
-  font-size: 45px;
-  text-align: center;
-  font-family: system-ui;
-  color: whitesmoke;
+nav ul li a {
+  color: white;
 }
 
-.main {
+.pannel {
   width: 700px;
-  height: 550px;
+  height: 650px;
   background: rgba(0, 0, 0, 0.774);
   color: antiquewhite;
   top: 60%;
@@ -55,13 +63,36 @@ nav ul li {
   box-sizing: border-box;
   border-radius: 3%;
   padding: 140px 60px;
+  font-family: 'Ysabeau Office', sans-serif;
+
 }
 
-.USER {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+.register label {
+  display: inline-block;
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.register input {
+  margin-right: 10px;
+  width: 90px;
+}
+
+.register input radio {
+  width: 30px;
+}
+
+button {
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size: 15px;
+  background-color: rgba(176, 38, 38, 0.858);
+}
+
+.pannel h1 {
   position: absolute;
-  top: -100px;
-  right: 250px;
+  left: 140px;
+  top: 30px;
+  font-size: 80px;
+  font-family: 'Ysabeau Office', sans-serif;
 }
