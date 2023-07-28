@@ -14,7 +14,7 @@
 body {
     font-family: system-ui;
     color: white;
-    background: url(LIBRARY_BACKGROUND_1.jpg);
+    /* background: url(LIBRARY_BACKGROUND_1.jpg); */
     background-size: cover;
 
 }
@@ -63,7 +63,7 @@ nav ul li a {
 .main {
   width: 700px;
   height: 550px;
-  background: rgba(0, 0, 0, 0.774);
+  background:whitesmoke;
   color: antiquewhite;
   top: 60%;
   left: 50%;

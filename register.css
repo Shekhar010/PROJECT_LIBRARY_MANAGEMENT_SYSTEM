@@ -14,7 +14,7 @@
 body {
   font-family: system-ui;
   color: white;
-  background: url(LIBRARY_BACKGROUND_1.jpg);
+  /* background: url(LIBRARY_BACKGROUND_1.jpg); */
   background-size: cover;
 
 }
@@ -23,6 +23,7 @@ nav {
   height: 60px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.789);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 2);
 }
 
 nav ul {
@@ -64,7 +65,7 @@ nav ul li a {
   border-radius: 3%;
   padding: 140px 60px;
   font-family: 'Ysabeau Office', sans-serif;
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 2);
 }
 
 .register label {
@@ -77,15 +78,23 @@ nav ul li a {
 .register input {
   margin-right: 10px;
   width: 90px;
+  height: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type="file"]{
+  width: 400px;
 }
 
 .register input radio {
   width: 30px;
 }
 
-button {
+input[type="submit"] {
   font-family: 'Ysabeau Office', sans-serif;
   font-size: 15px;
+  height: 25px;
   background-color: rgba(176, 38, 38, 0.858);
 }
 

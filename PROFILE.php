@@ -16,9 +16,9 @@
                 <li>
                     <p><i>E-Library</i></p>
                 </li>
-                <li></i><a href="HOME.html">HOME</a></li>
-                <li><a href="register.html">REGISTER NOW</a></li>
-                <li><a href="INDEX.html">LOGIN</a></li>
+                <li></i><a href="HOME.php">HOME</a></li>
+                <li><a href="register.php">REGISTER NOW</a></li>
+                <li><a href="INDEX.php">LOGIN</a></li>
             </ul>
         </nav>
     </header>
